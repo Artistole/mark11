@@ -1,18 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 :root
 {
-    --primary-color: red ;
-    --secondary-color: blue ;
+    --primary-color: #F87171 ;
+    --secondary-color: white ;
 }
 
 body
 {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-image: url("/images/birthday.svg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center; */
+    margin-top: 10rem;
+    font-family: 'Roboto', sans-serif;
+    /* margin: auto; */
+    /* background-size: rem 80rem; */
+    
 }
 
 h1
 {
-    text-align: center;
+    /* text-align: center; */
+    margin: 1rem 20rem;
 }
 
 .container
@@ -29,20 +38,36 @@ label
 
 input
 {
+    padding: 1rem 1rem;
+    /* /* margin-right: 0.5rem;
+    margin-left: 0.5rem; */
     margin-bottom: 0.5rem;
-    width: 100%;
+    width: 50%;
+    font-size: x-large;
+}
+
+label
+{
+    font-weight: bold;
 }
 
 #check-number
 {
+
     display: block;
     margin-top: 1rem;
-    margin:auto;
-    background: transparent;
-    color: var(--secondary-color);
+    margin: 1rem 10rem;
     border-width: medium;
     padding: 0.5rem;
     border-radius: 0.4rem;
+    
 
+}
+
+#output-box
+{
+    font-size: x-large;
+    background-color: #5BC3EB;
+    width: 55%
 }
 
