@@ -4,13 +4,19 @@ const checkNumberButton = document.querySelector("#check-number");
 const outPutBox = document.querySelector("#output-box");
 const btnClose = document.querySelector("#close");
 const privacy = document.querySelector(".privacy")
+const luckySection = document.querySelector(".lucky-div");
+const unluckySection = document.querySelector(".unlucky-div");
 
 function compareValues(sum, luckyNumber) {
   if (luckyNumber != '') {
     if (sum % luckyNumber === 0) {
       outPutBox.innerText = "Your birthday is lucky!";
+      luckySection.style.display = "block";
+      unluckySection.style.display = "none";
     } else {
       outPutBox.innerText = "Your birthday is not lucky, don't worry we make our own luck!";
+      unluckySection.style.display = "block";
+      luckySection.style.display = "none";
     }
   } else {
     outPutBox.innerText = "Please enter the lucky number"

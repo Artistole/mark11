@@ -11,7 +11,7 @@ body
     background-repeat: no-repeat;
     /* background-size: cover; */
     /* background-position: center; */
-    margin-top: 10rem;
+    margin-top: 1rem;
     font-family: 'Roboto', sans-serif;
     /* margin: auto; */
     /* background-size: rem 80rem; */
@@ -21,13 +21,15 @@ body
 h1
 {
     /* text-align: center; */
-    margin: 1rem 20rem;
+    /* margin: 7rem 20rem; */
+    margin-top: 5rem;
+    margin-left: 23rem;
 }
 
 .container
 {
     width: 50%;
-    margin: auto;
+    margin: 1rem 25rem;
 }
 
 input,
@@ -74,20 +76,72 @@ label
 
 .privacy {
     display: block;
-    width: 70%;
-    margin:0 auto;
-    border: 1px solid #EEEEEE;
-    background: hsla(280, 7%, 82%,0.2);
-    padding: 1rem;
-    color:#00C1D4;
-    border-radius: 10px;
+    width: 26%;
+    /* margin:0 auto; */
+    margin: 1rem 25rem;
+    border: 1px solid black;
+    background: chocolate;
+    padding: 1rem 1rem;
+    color: black;
     margin-bottom: 1rem;
+    border-radius: 1rem;
    
   }
 
   #close {
-    background: hsla(280, 7%, 82%,0.5);
+    background: black;
     padding: 0.5rem 1rem;
     border-radius: 25px;
-    color: rgb(75, 11, 11);
+    color: white;
   }
+
+#lucky
+{
+    width: 26%;
+    margin: 1rem 25rem;
+}
+
+#unlucky
+{
+    width: 26%;
+    margin-left: 25rem;
+}
+
+.unlucky-div,
+.lucky-div {
+  display: none;
+}
+
+.list-non-bullet
+{
+    list-style: none;
+}
+
+.list-item-inline
+{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer
+{
+   position: fixed;
+   background-color: var(--primary-color);
+   bottom: 0%;
+   width: 100%;
+   padding: 10px 2px;
+   text-align: center;
+   color: black;
+   /* border-bottom-left-radius: 1rem; */
+
+}
+
+.footer .link
+{
+    color: white;
+}
+.footer .footer-header
+{
+    font-weight:bold ;
+    font-size: large;
+}
