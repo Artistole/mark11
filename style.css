@@ -71,3 +71,23 @@ label
     width: 55%
 }
 
+
+.privacy {
+    display: block;
+    width: 70%;
+    margin:0 auto;
+    border: 1px solid #EEEEEE;
+    background: hsla(280, 7%, 82%,0.2);
+    padding: 1rem;
+    color:#00C1D4;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+   
+  }
+
+  #close {
+    background: hsla(280, 7%, 82%,0.5);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    color: rgb(75, 11, 11);
+  }
