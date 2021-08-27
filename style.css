@@ -97,14 +97,21 @@ label
 
 #lucky
 {
-    width: 26%;
-    margin: 1rem 25rem;
+    width: 27%;
+    /* margin: 1rem 25rem; */
+    /* background-position: right; */
+    margin: -21rem 60rem;
+    margin-bottom: 39px;
+    margin-right: 9rem;
 }
 
 #unlucky
 {
-    width: 26%;
-    margin-left: 25rem;
+    width: 27%;
+    /* margin-left: 25rem; */
+    margin: -25rem 60rem;
+    margin-bottom: 39px;
+    margin-right: 9rem;
 }
 
 .unlucky-div,
